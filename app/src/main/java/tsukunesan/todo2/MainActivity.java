@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // ボタン定義
+        // ボタン
         final Button createButton = findViewById(R.id.createButton);
         final Button deleteButton = findViewById(R.id.deleteButton);
         final EditText todoEdit = findViewById(R.id.todoEdit);
